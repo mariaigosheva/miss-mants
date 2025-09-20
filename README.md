@@ -1,19 +1,35 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# 🎶 Miss Mants – Official Website
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+This repository contains the official website for **Miss Mants**, an electronic music artist blending hypnotic beats with soulful melodies.  
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+The site showcases her **bio, music releases, photo gallery, upcoming shows, and booking/contact information**.  
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+---
 
-Happy Coding!
+## 🚀 Live Demo  
+[🔗 Visit Website](https://your-live-link.com)  
+*(Replace with your Netlify, Vercel, or GitHub Pages link once deployed)*
+
+---
+
+## ✨ Features  
+- 🎤 **About Section** – Learn more about Miss Mants’ journey.  
+- 📸 **Photo Gallery** – A curated selection of performance and promo shots.  
+- 🎶 **Music Links** – Listen to latest releases (e.g., on Beatport, Spotify).  
+- 📅 **Shows Section** – Stay updated on upcoming events.  
+- 📩 **Contact Form** – Bookings, collaborations, and general inquiries via EmailJS.  
+- 🌐 **Social Media Links** – Connect on Instagram, Facebook, and Spotify.  
+
+---
+
+## 🛠️ Tech Stack  
+- **HTML5**  
+- **CSS3 (Custom Styling + Responsive Layouts)**  
+- **JavaScript (Vanilla + EmailJS for contact form)**  
+
+---
+Copyright (c) 2025 Miss Mants. All Rights Reserved.
+
+This project and its contents are not open-source.  
+Reproduction, modification, distribution, or any other unauthorized use  
+is strictly prohibited without explicit permission from the owner.
