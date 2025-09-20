@@ -1,14 +1,14 @@
 # 🎶 Miss Mants – Official Website
 
-This repository contains the official website for **Miss Mants**, an electronic music artist blending hypnotic beats with soulful melodies.  
+This repository (**missmants-hub**) contains the official website for **Miss Mants**, an electronic music artist blending hypnotic beats with soulful melodies.  
 
 The site showcases her **bio, music releases, photo gallery, upcoming shows, and booking/contact information**.  
 
 ---
 
 ## 🚀 Live Demo  
-[🔗 Visit Website](https://your-live-link.com)  
-*(Replace with your Netlify, Vercel, or GitHub Pages link once deployed)*
+[🔗 Visit Website](https://mariaigosheva.github.io/missmants-hub/)  
+*(Replace `your-username` with your actual GitHub username once deployed)*  
 
 ---
 
@@ -28,6 +28,7 @@ The site showcases her **bio, music releases, photo gallery, upcoming shows, and
 - **JavaScript (Vanilla + EmailJS for contact form)**  
 
 ---
+
 Copyright (c) 2025 Miss Mants. All Rights Reserved.
 
 This project and its contents are not open-source.  
