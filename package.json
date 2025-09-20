@@ -1,6 +1,4 @@
 {
-  "name": "Scrim-s01kgac",
-  "description": "https://scrimba.com/s01kgac/s0a96s857c/head",
   "scripts": {
     "start": "vite",
     "dev": "vite",
