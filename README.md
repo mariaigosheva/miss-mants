@@ -10,20 +10,32 @@ The site showcases her **bio, music releases, photo gallery, upcoming shows, and
 
 ---
 
-## ✨ Features  
-- 🎤 **About Section** – Learn more about Miss Mants’ journey.  
-- 📸 **Photo Gallery** – A curated selection of performance and promo shots.  
-- 🎶 **Music Links** – Listen to latest releases (e.g., on Beatport, Spotify).  
-- 📅 **Shows Section** – Stay updated on upcoming events.  
+## ✨ Features
+
+- 🎤 **About Section** – Learn more about Miss Mants’ musical journey and style.  
+- 📸 **Photo Gallery** – A curated selection of performance and promotional shots.  
+- 🎶 **Music Links** – Listen to latest releases on platforms like Beatport, SoundCloud, and Spotify.  
+- 📅 **Shows Section** – Stay updated on upcoming events with interactive flip-card design.  
 - 📩 **Contact Form** – Bookings, collaborations, and general inquiries via EmailJS.  
-- 🌐 **Social Media Links** – Connect on Instagram, Facebook, and Spotify.  
+- 🌐 **Social Media Links** – Connect on Instagram, Facebook, and Spotify.
 
 ---
 
-## 🛠️ Tech Stack  
-- **HTML5**  
-- **CSS3 (Custom Styling + Responsive Layouts)**  
-- **JavaScript (Vanilla + EmailJS for contact form)**  
+## 🛠️ Tech Stack
+
+- **HTML5** – Semantic structure and accessibility-friendly markup.  
+- **CSS3** – Custom styling, animations, and responsive layouts.  
+- **JavaScript (Vanilla)** – Interactive carousel, flip-card animations, and form handling with EmailJS.
+
+---
+
+## 🎨 Notes
+
+- Fully **responsive design** for mobile and desktop.  
+- **Interactive carousel** for music tracks with SoundCloud embeds and external links.  
+- **3D flip animation** for upcoming shows cards.  
+- Custom **backgrounds and flyers** can be added to show cards.  
+- Email form uses **EmailJS** to send inquiries without backend.  
 
 ---
 
