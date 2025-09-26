@@ -12,8 +12,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     emailjs
       .sendForm(
-        "service_6x88a4b",   // 
-        "template_6k1mpsp",  // 
+        "service_6x88a4b",   // 👈 replace with your EmailJS Service ID
+        "template_6k1mpsp",  // 👈 replace with your EmailJS Template ID
         this
       )
       .then(() => {
@@ -27,6 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
       });
   });
 });
+
 
 
 
