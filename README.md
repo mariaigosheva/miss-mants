@@ -12,8 +12,7 @@ The site showcases her **bio, music releases, photo gallery, upcoming shows, and
 
 ## ✨ Features
 
-- 🎤 **About Section** – Learn more about Miss Mants’ musical journey and style.  
-- 📸 **Photo Gallery** – A curated selection of performance and promotional shots.  
+- 🎤 **About Section** – Learn more about Miss Mants’ musical journey and style.
 - 🎶 **Music Links** – Listen to latest releases on platforms like Beatport, SoundCloud, and Spotify.  
 - 📅 **Shows Section** – Stay updated on upcoming events with interactive flip-card design.  
 - 📩 **Contact Form** – Bookings, collaborations, and general inquiries via EmailJS.  
