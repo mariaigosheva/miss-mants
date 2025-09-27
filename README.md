@@ -44,3 +44,8 @@ This project and its contents are not open-source.
 Reproduction, modification, distribution, or any other unauthorized use  
 is strictly prohibited without explicit permission from the owner.
 Made by Maria Igosheva.
+
+---
+
+📂 Project Status
+✅ Complete – Showcased as a portfolio project.
