@@ -190,6 +190,7 @@ html { scroll-behavior: smooth; }
   height: 280px;
   perspective: 1000px;
 }
+
 .card-inner {
   position: relative;
   width: 100%;
@@ -199,8 +200,15 @@ html { scroll-behavior: smooth; }
   transform-style: preserve-3d;
   cursor: pointer;
 }
+
+/* Desktop hover & focus flip */
 .show-card:hover .card-inner,
 .show-card:focus .card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Mobile click flip */
+.card-inner.flipped {
   transform: rotateY(180deg);
 }
 
