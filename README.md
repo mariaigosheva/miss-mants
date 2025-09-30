@@ -1,6 +1,6 @@
 # 🎶 Miss Mants – Official Website
 
-This repository (**missmants-hub**) contains the official website for **Miss Mants**.
+This repository (**miss-mants**) contains the official website for **Miss Mants**.
 The site showcases her **bio, music releases, photo gallery, upcoming shows, and booking/contact information**.  
 
 ---
