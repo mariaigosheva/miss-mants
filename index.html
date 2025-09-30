@@ -148,7 +148,7 @@
     </div>
   </section>
 
-  <!-- Upcoming Shows Section with Flip Cards -->
+  <!-- Upcoming Shows Section -->
   <section class="shows-section" id="shows">
     <div class="container">
       <h2>Upcoming Shows</h2>
@@ -234,43 +234,3 @@
     <p>© 2025 Miss Mants • Built with 🧡 • All rights reserved</p>
   </footer>
 
-  <!-- Scripts -->
-  <script src="contact.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-  <script>
-    emailjs.init("LW6K7F3-C-nEn3JfD"); // replace with your key
-  </script>
-
-  <!-- Mobile menu toggle -->
-  <script>
-    const menuToggle = document.querySelector(".menu-toggle");
-    const navLinks = document.querySelector(".nav-links");
-    menuToggle.addEventListener("click", () => navLinks.classList.toggle("show"));
-  </script>
-
-  <!-- Carousel Script with Dots -->
-  <script>
-    const track = document.querySelector('.carousel-track');
-    const slides = Array.from(track.children);
-    const prevBtn = document.querySelector('.carousel-btn.prev');
-    const nextBtn = document.querySelector('.carousel-btn.next');
-    const dots = Array.from(document.querySelectorAll('.dot'));
-    let currentIndex = 0;
-
-    function updateSlide(index) {
-      track.style.transform = `translateX(-${index * 100}%)`;
-      dots.forEach(dot => dot.classList.remove('active'));
-      dots[index].classList.add('active');
-    }
-
-    nextBtn.addEventListener('click', () => {
-      currentIndex = (currentIndex + 1) % slides.length;
-      updateSlide(currentIndex);
-    });
-
-    prevBtn.addEventListener('click', () => {
-      currentIndex = (currentIndex - 1 + slides.length) % slides.length;
-      updateSlide(currentIndex);
-    });
-
-    dots.for
