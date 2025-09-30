@@ -48,4 +48,4 @@ Made by Maria Igosheva.
 ---
 
 📂 Project Status
-✅ Complete – Showcased as a portfolio project.
+✅ Complete
