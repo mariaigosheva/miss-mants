@@ -6,7 +6,7 @@ The site showcases her **bio, music releases, photo gallery, upcoming shows, and
 ---
 
 ## 🚀 Live Demo  
-[🔗 Visit Website](missmants.com)
+[🔗 Visit Website](https://mariaigosheva.github.io/miss-mants/)
 
 ---
 
