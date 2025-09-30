@@ -7,4 +7,12 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+// Enable flip on mobile tap
+document.querySelectorAll('.show-card').forEach(card => {
+  card.addEventListener('click', () => {
+    card.querySelector('.card-inner').classList.toggle('flipped');
+  });
+});
+
+
 
