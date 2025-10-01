@@ -1,44 +1,34 @@
-// contact.js
+// AJAX Form Submission (Formspree) with disappearing messages
+const form = document.querySelector("#contact-form");
+const formMessage = document.getElementById("form-message");
 
-document.addEventListener("DOMContentLoaded", () => {
-  const form = document.getElementById("contact-form");
-  const formMessage = document.querySelector(".form-message");
+form.addEventListener("submit", async (e) => {
+  e.preventDefault();
+  const data = new FormData(form);
 
-  form.addEventListener("submit", function (e) {
-    e.preventDefault();
+  try {
+    const response = await fetch(form.action, {
+      method: form.method,
+      body: data,
+      headers: { "Accept": "application/json" }
+    });
 
-    formMessage.textContent = "Sending... ⏳";
-    formMessage.style.color = "#999";
+    if (response.ok) {
+      formMessage.textContent = "✅ Message sent successfully!";
+      formMessage.style.color = "#4caf50"; // green
+      form.reset();
+    } else {
+      formMessage.textContent = "❌ Failed to send message.";
+      formMessage.style.color = "#ff5252"; // red
+    }
+  } catch (err) {
+    formMessage.textContent = "❌ Failed to send message.";
+    formMessage.style.color = "#ff5252"; // red
+  }
 
-    emailjs
-      .sendForm(
-        "service_6x88a4b",   // 👈 replace with your EmailJS Service ID
-        "template_6k1mpsp",  // 👈 replace with your EmailJS Template ID
-        this
-      )
-      .then(() => {
-        formMessage.textContent = "Message sent successfully ✅";
-        formMessage.style.color = "green";
-        form.reset();
-      })
-      .catch((error) => {
-        formMessage.textContent = "Failed to send ❌ " + error.text;
-        formMessage.style.color = "red";
-      });
-  });
+  // Hide message after 5 seconds
+  setTimeout(() => {
+    formMessage.textContent = "";
+  }, 5000);
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
