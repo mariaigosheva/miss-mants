@@ -252,6 +252,19 @@ html { scroll-behavior: smooth; }
   color:#ffed6f;
 }
 
+/* Contact Intro Text */
+.contact-intro {
+  font-size: 1.1rem;
+  color: #ddd;
+  text-align: center;
+  margin-bottom: 20px;
+  max-width: 500px; /* matches form width */
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+
 /* Social Media Links */
 .social-links {
   display: flex;
