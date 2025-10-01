@@ -1,7 +1,7 @@
 # 🎶 Miss Mants – Official Website
 
 This repository (**miss-mants**) contains the official website for **Miss Mants**.
-The site showcases her **bio, music releases, photo gallery, upcoming shows, and booking/contact information**.  
+The site showcases her **bio, music releases, upcoming shows, and booking/contact information**.  
 
 ---
 
@@ -12,29 +12,24 @@ The site showcases her **bio, music releases, photo gallery, upcoming shows, and
 
 ## ✨ Features
 
-- 🎤 **About Section** – Learn more about Miss Mants’ musical journey and style.
-- 🎶 **Music Links** – Listen to latest releases on platforms like Beatport, SoundCloud, and Spotify.  
-- 📅 **Shows Section** – Stay updated on upcoming events with interactive flip-card design.  
-- 📩 **Contact Form** – Bookings, collaborations, and general inquiries via EmailJS.  
-- 🌐 **Social Media Links** – Connect on Instagram, Facebook, and Spotify.
+- **Responsive Design**: Works on desktop, tablet, and mobile devices.
+- **Music Carousel**: Listen to tracks from SoundCloud with direct links to Beatport.
+- **3D flip animation** for upcoming shows cards.  
+- Custom **backgrounds and flyers** can be added to show cards.  
+- **Contact Form**: Integrated with Formspree for easy booking inquiries.
+- **Social Media Links**: Connect with Miss Mants on Instagram, Facebook, and Spotify.
+- **Smooth Scrolling & Sticky Header** for a polished user experience.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **HTML5** – Semantic structure and accessibility-friendly markup.  
-- **CSS3** – Custom styling, animations, and responsive layouts.  
-- **JavaScript (Vanilla)** – Interactive carousel, flip-card animations, and form handling with EmailJS.
-
----
-
-## 🎨 Notes
-
-- Fully **responsive design** for mobile and desktop.  
-- **Interactive carousel** for music tracks with SoundCloud embeds and external links.  
-- **3D flip animation** for upcoming shows cards.  
-- Custom **backgrounds and flyers** can be added to show cards.  
-- Email form uses **EmailJS** to send inquiries without backend.  
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6)**
+- **Formspree** for contact form handling
+- **SoundCloud API** embedded player
+- **Beatport Links** for music promotion
 
 ---
 
