@@ -27,8 +27,13 @@ html { scroll-behavior: smooth; }
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative; /* needed for absolute menu-toggle */
 }
-.nav-links { list-style:none; display:flex; gap:20px; }
+.nav-links { 
+  list-style:none; 
+  display:flex; 
+  gap:20px; 
+}
 .nav-links a {
   color:#ffed6f;
   text-decoration:none;
@@ -36,13 +41,70 @@ html { scroll-behavior: smooth; }
   transition:0.3s;
 }
 .nav-links a:hover { color:#ef5839; }
+
+/* Hamburger Menu */
 .menu-toggle {
-  display:none;
-  font-size:1.8rem;
-  background:none;
-  border:none;
-  cursor:pointer;
-  color:#ffed6f;
+  display: none;           /* hidden on desktop */
+  font-size: 1.8rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #ffed6f;
+  position: absolute;      /* aligns inside nav-container */
+  top: 15px;               /* vertical spacing */
+  right: 20px;             /* right corner */
+  z-index: 20;
+}
+
+/* Show burger on mobile */
+@media (max-width: 768px) {
+  .menu-toggle { display: block; }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background: rgba(0,0,0,0.95);
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+
+  .nav-links.show { display: flex; }
+  .nav-links li { margin: 10px 0; }
+}
+
+
+/* Overlay */
+.overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: opacity 0.3s ease;
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* Mobile Menu */
+@media (max-width:768px) {
+  .menu-toggle { display:flex; }
+  .nav-links {
+    display:none;
+    position:absolute;
+    top:60px;
+    right:20px;
+    background:rgba(0,0,0,0.95);
+    flex-direction: column;
+    padding:15px;
+    border-radius:8px;
+    transition: all 0.3s ease;
+  }
+  .nav-links.show { display:flex; }
+  .nav-links li { margin:10px 0; }
 }
 
 /* Overlay */
