@@ -42,5 +42,5 @@ Made by Maria Igosheva.
 
 ---
 
-📂 Project Status
+📂 Project Status:
 ✅ Complete
